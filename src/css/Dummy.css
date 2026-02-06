@@ -1,0 +1,449 @@
+.mainheading1 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #004d40;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+.form-label {
+    font-size: 13px;
+    color: #333;
+    margin-bottom: 0px !important;
+    font-weight: 500;
+    margin-right: 8px;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+.form-control {
+    display: block;
+    /* width: 150px;
+    height: 32px; */
+    padding: .375rem 2.25rem .375rem .75rem !important;    
+    font-size: 11px !important;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+  .button-container {
+  margin: 10px !important;
+}
+
+.table-dark {
+    --bs-table-color: #000000 !important;
+    --bs-table-bg: #c9d8e6 !important;
+    --bs-table-border-color: #ccd1d4 !important;
+}
+/* Style for the dropdown itself */
+select.form-select {
+  font-size: 12px !important;
+  font-family: 'Poppins', sans-serif !important;
+  color: #333;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  /* padding: 8px; */
+  /* background-color: #f9f9f9; */
+  cursor: pointer;
+  /* width: 150px;
+  height: 32px; */
+}
+.btn-custom {
+    background-color: #c1dedc !important;
+    border: none;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.text-name {
+    color: #353131 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+.Text-cls {
+    color: #353131 !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 13px !important;
+}
+
+/* Style for the placeholder option */
+select.form-select option:disabled {
+  color: #aaa; /* Gray for placeholder */
+  font-family: 'Poppins', sans-serif !important;
+
+}
+
+/* Style for the options in the dropdown */
+select.form-select option {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif !important;
+  color: #333;
+  background-color: #fff; /* Background for options */
+  padding: 5px;
+}
+.css-1lj39kh-MuiAccordionDetails-root {
+    padding: 8px 16px 16px;
+}
+th {
+    background-color: #c1dedc;
+    font-size: 12px;
+    font-weight: 500;
+}
+ td {
+    /* text-align: left; */
+    padding: 10px;
+    font-size: 11px;
+}
+/* Responsive table wrapper */
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Table header styles */
+.custom-table th {
+  background-color: #c1dedc;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Table cell styles */
+.custom-table td {
+  padding: 10px;
+  font-size: 11px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+/* Optional: action icons spacing */
+.custom-table .action-icons i {
+  font-size: 14px;
+  color: #004d40;
+}
+
+@media (max-width: 576px) {
+  .custom-table th,
+  .custom-table td {
+    font-size: 10px;
+    padding: 6px;
+  }
+}
+
+.MuiAccordionSummary-root {
+    background-color: rgb(221 230 230) !important;
+            color: white; 
+  }                    
+ 
+.css-1umw9bq-MuiSvgIcon-root {
+  
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.expandIconWrapper {
+  background-color: rgb(221, 230, 230) !important;
+  border-radius: 4px;
+  padding: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordionSummaryRoot {
+  min-height: 39px !important;
+  height: 39px !important;
+}
+
+.accordionSummaryRoot.Mui-expanded {
+  min-height: 39px !important;
+  height: 39px !important;
+}
+
+
+
+.css-rizt0-MuiTypography-root {
+  margin: 0;
+  /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+/* Optional: style for checkbox alignment */
+.form-check-input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+
+
+.employee-container {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+/* Accordion headings */
+.main-heading {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #004d40;
+}
+
+/* Expand icon */
+.expand-icon {
+  color: #004d40;
+}
+
+/* Buttons container */
+.button-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+
+
+/* Table action icons */
+.action-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+/* Pagination box */
+.pagination-box {
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background-color: #ffffff;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+  .button-row {
+    flex-direction: column;
+  }
+
+  .pagination-box {
+    padding: 10px;
+  }
+}
+.css-rizt0-MuiTypography-root {
+    margin: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+
+.accordion-summary {
+  min-height: 39px !important;
+  height: 39px !important;
+  display: flex;
+  align-items: center;
+}
+
+.accordion-summary.Mui-expanded {
+  min-height: 39px !important;
+  height: 39px !important;
+}
+
+.expand-icon-wrapper {
+  background-color: rgb(221, 230, 230) !important;
+  padding: 4px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Custom height + width for all input fields */
+.custom-input {
+  height: 40px !important;
+  padding: 6px 12px !important;
+  font-size: 14px !important;
+  border-radius: 6px !important;
+}
+
+/* Bigger checkboxes */
+.custom-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.leave-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 20px;
+}
+
+.leave-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 26px;
+}
+
+.dialog-body-scroll {
+  max-height: 65vh;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+/* OUTLINED INPUT STYLE */
+.custom-input {
+  font-size: 12px;
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid #c4c4c4;
+  background-color: #fff;
+  transition: 0.2s ease;
+}
+
+.custom-input:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.1);
+  outline: none;
+}
+
+/* 5 INPUTS PER ROW */
+.five-col-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.five-col-item {
+  flex: 1 1 calc(20% - 12px);
+  min-width: 180px;
+}
+
+/* Popup scroll */
+.dialog-scroll {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+/* Full screen blur when dialog opens */
+.full-screen-blur {
+  filter: blur(4px);
+  pointer-events: none;
+  user-select: none;
+  transition: 0.2s ease;
+}
+/* Blur entire app when popup is open */
+.app-blur {
+  filter: blur(5px);
+  pointer-events: none;
+  user-select: none;
+  transition: 0.2s ease-in-out;
+}
+.MuiBackdrop-root {
+  backdrop-filter: blur(3px);
+}
+/* Uniform outlined input style */
+.custom-input {
+  height: 36px !important;
+  font-size: 12px !important;
+  border-radius: 6px;
+}
+
+/* 5-column grid inside popup */
+.form-grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+/* Labels */
+.form-label {
+  font-size: 11px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+/* Checkbox compact */
+.custom-checkbox {
+  transform: scale(0.9);
+}
+
+/* Popup wider */
+.MuiDialog-paper {
+  max-width: 1100px !important;
+}
+.three-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 inputs per row */
+  gap: 16px; /* spacing between fields */
+}
+.compact-table td,
+.compact-table th {
+  padding: 4px 6px !important; /* Reduce padding */
+  font-size: 11px;
+  height: 26px; /* Small row height */
+}
+
+.compact-table tr {
+  line-height: 1.1;
+}
+
+.compact-table .MuiCheckbox-root {
+  padding: 2px !important; /* Smaller checkbox spacing */
+}
+
+.stat-value {
+    color: #233b77 !important;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.compact-table {
+  font-size: 10px;
+}
+
+.compact-table th,
+.compact-table td {
+  font-size: 10px !important;
+}
+.small-btn {
+  font-size: 10px !important;
+  min-height: 26px !important;
+  padding: 2px 8px !important;
+  text-transform: none !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.compact-table thead th {
+  position: sticky;
+  top: 0;
+  background: #f8f9fa;
+  z-index: 2;
+}
+/* ===== 4 INPUTS PER ROW ===== */
+
+.four-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+.custom-input {
+  height: 28px;
+  font-size: 11px;
+  padding: 2px 6px;
+}
